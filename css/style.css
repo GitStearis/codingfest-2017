@@ -1,0 +1,247 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 90px;
+    background-size: 100%;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+header {
+    z-index: 20;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+	align-items: center;
+	min-height: 90px;
+	background: #222;
+	color: #eee;
+	font-size: 22px;
+	font-style: normal;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	padding: 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+nav{
+	flex-basis: 40%;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+}
+
+ul li:not(:last-child){
+	margin-right: 90px;
+}
+
+li a {
+	color: #eee;
+	text-decoration: none;
+	font-size: 16px;
+	transition: all 0.2s ease-in;
+	position: relative;
+}
+
+li a::after {
+	width: 105%;
+	content: "";
+	height: 2px;
+	display: block;
+	background-color: #fff;
+	transform: scaleX(0);
+	transition: all 0.2s ease-in;
+}
+
+li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover::after {
+	transform: scaleX(1.2);
+}
+
+a.image {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	margin-left: 30px;
+    display: block;
+    width: 100px;
+    height: 60px;
+   }
+   a.image:hover {
+	background-image: url(../img/logo_blue.png);
+   }
+
+.picture-container {
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    padding: 0 15%;
+    font-family: Ubuntu;
+    line-height: 1.6;
+    font-size:16px;
+    align-items: center;
+}
+
+.picture-image,
+.picture-info {
+    flex: 0 0 45%;
+    min-width: 300px;
+    max-height: 100%;
+}
+
+.picture-image img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.picture-info h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.picture-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.picture-price span {
+    margin-left: 12px;
+    font-weight: 400;
+}
+
+.btn {
+    min-width: 150px;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease-in;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+span{
+    font-size:32px;
+    font-weight: bold;
+}
+
+
+.carte{
+    overflow:hidden;
+    margin: 25px;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.col-sm-4{
+    padding-left: 0px !important;
+}
+.img-thumbnail {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.img-thumbnail:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.lower
+{
+    padding-top: 12em;
+}
+
+.small-lower
+{
+    padding-top: 3em;
+}
+
+.blur
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 768px;
+}
+.no-blur
+{
+    background-color: none;
+}
+
+.blue
+{
+    background-color: #03A9F4;
+    border: none;
+    color: #fff;
+}
+
+.blue:hover
+{
+    background-color: #0895D4;
+    border: none;
+    color: #fff;
+}
+
+        .withpict{
+            border-top: 1px solid black;
+            margin-bottom: 60px;
+        }
+        .thisimg{
+            position: absolute;
+            margin: 0 auto;
+            top: 70px;
+            width: 160px;
+            height: 160px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            border: 1px solid black;
+        }
+        footer{
+            padding-top: 150px;
+            position: relative;
+        }
+        .socialsize{
+            width: 50px;
+            height: 50px;
+        }
+        .twitter{
+            display: inline;
+            margin: 40px 50px 0px 90px;
+        }
+        .social{
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .facebook{
+            display: inline;
+            margin: 40px 50px 0px 30px;
+        }
+        .vk{
+            display: inline;
+            margin: 40px 50px 0px 190px;
+        }
+        .instagram{
+            display: inline;
+            margin: 40px 50px 0px 30px;
+        }
