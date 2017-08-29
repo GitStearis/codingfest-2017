@@ -2,16 +2,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
     padding-top: 90px;
     background-size: 100%;
-}
-.wrapper{
-	width: 100%;
-	max-width: 1920px;
-	margin: 0 auto;
+    width: 100%;
 }
 
 header {
     z-index: 20;
-	max-width: 100%;
+	width: 100%;
 	left: 0;
 	right: 0;
 	align-items: center;
@@ -27,6 +23,17 @@ header {
 	padding: 20px;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 nav{
@@ -170,7 +177,7 @@ span{
 
 .lower
 {
-    padding-top: 12em;
+    padding-top: 6em;
 }
 
 .small-lower
@@ -178,13 +185,22 @@ span{
     padding-top: 3em;
 }
 
+.form-body{
+    width: 100%;
+    background-image: url('../img/20.jpg'); /* Путь к фоновому рисунку */
+    background-position: center top;
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+}
+
 .blur
 {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     height: 768px;
 }
 .no-blur
 {
+    width: 100%;
     background-color: none;
 }
 
@@ -203,19 +219,34 @@ span{
 }
 
         .withpict{
-            border-top: 1px solid black;
-            margin-bottom: 60px;
+            border-top: 1px solid #ccc;
+            bottom: 100px;
         }
-        .thisimg{
+        .lora-container{
+            text-align: center;
+            background-color: white;
             position: absolute;
-            margin: 0 auto;
+
             top: 70px;
             width: 160px;
             height: 160px;
             left: 50%;
             transform: translateX(-50%);
             display: block;
-            border: 1px solid black;
+            border: 1px solid #ccc;
+        }
+        .lora{
+            display: block;
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+            width: 96%;
+            height: 96%;
         }
         footer{
             padding-top: 150px;
@@ -245,3 +276,7 @@ span{
             display: inline;
             margin: 40px 50px 0px 30px;
         }
+
+.center{
+    text-align: center;
+}
