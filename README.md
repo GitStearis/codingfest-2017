@@ -1,6 +1,6 @@
 # CODINGFEST-2017 project.
 
-The project is created during the hackathon ["Coding Fest"](https://codefest.by/) by team №16. 
+The project is created during the hackathon ["Coding Fest"](https://codefest.by/) by team №16. Цow I am engaged in development and editing of this project.
 
 ## Authors
 
